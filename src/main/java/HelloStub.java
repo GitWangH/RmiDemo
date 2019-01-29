@@ -22,7 +22,7 @@ public class HelloStub extends  org.apache.axis.client.Stub implements  Hello {
         oper.setStyle(org.apache.axis.constants.Style.WRAPPED);
         oper.setUse(org.apache.axis.constants.Use.LITERAL);
         _operations[1] = oper;
-        System.out.print(_operations[1]);
+       // System.out.print(_operations[1]);
     }
     public String getMessageStatus(String time) throws RemoteException {
         if (super.cachedEndpoint == null) {
